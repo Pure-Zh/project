@@ -1,6 +1,6 @@
 CMakeFiles/imageanalyze.dir/cpp/clipper.cpp.o: \
-  /home/zjl/project_d/test1/cpp/clipper.cpp \
-  /home/zjl/project_d/test1/include/clipper.hpp \
+  /home/zjl/project/project_d/test1/cpp/clipper.cpp \
+  /home/zjl/project/project_d/test1/include/clipper.hpp \
   /home/zjl/opt/android_ndk/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/vector \
   /home/zjl/opt/android_ndk/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config \
   /home/zjl/opt/android_ndk/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/features.h \

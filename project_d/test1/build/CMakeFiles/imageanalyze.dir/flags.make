@@ -4,7 +4,7 @@
 # compile CXX with /home/zjl/opt/android_ndk/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++
 CXX_DEFINES = -Dimageanalyze_EXPORTS
 
-CXX_INCLUDES = -I/home/zjl/project_d/test1 -I/home/zjl/project_d/test1/include -I/home/zjl/opt/java11/jdk-11/include -I/home/zjl/opt/java11/jdk-11/include/linux -isystem /home/zjl/opt/opencv/OpenCV-android-sdk/sdk/native/jni/include
+CXX_INCLUDES = -I/home/zjl/project/project_d/test1 -I/home/zjl/project/project_d/test1/include -I/home/zjl/opt/java11/jdk-11/include -I/home/zjl/opt/java11/jdk-11/include/linux -isystem /home/zjl/opt/opencv/OpenCV-android-sdk/sdk/native/jni/include
 
 CXX_FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -std=c++11 -fexceptions -frtti -DANDROID_STL=c++_shared -O3  -fPIC -std=c++11 -fexceptions -frtti -O3
 

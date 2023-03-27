@@ -1,5 +1,5 @@
 CMakeFiles/imageanalyze.dir/cpp/ocr_db_crnn.cc.o: \
-  /home/zjl/project_d/test1/cpp/ocr_db_crnn.cc \
+  /home/zjl/project/project_d/test1/cpp/ocr_db_crnn.cc \
   /home/zjl/opt/android_ndk/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/chrono \
   /home/zjl/opt/android_ndk/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config \
   /home/zjl/opt/android_ndk/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/features.h \
@@ -64,7 +64,7 @@ CMakeFiles/imageanalyze.dir/cpp/ocr_db_crnn.cc.o: \
   /home/zjl/opt/android_ndk/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/climits \
   /home/zjl/opt/android_ndk/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__undef_macros \
   /home/zjl/opt/android_ndk/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/limits \
-  /home/zjl/project_d/test1/include/paddle_api.h \
+  /home/zjl/project/project_d/test1/include/paddle_api.h \
   /home/zjl/opt/android_ndk/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/functional \
   /home/zjl/opt/android_ndk/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/typeinfo \
   /home/zjl/opt/android_ndk/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/exception \
@@ -143,9 +143,9 @@ CMakeFiles/imageanalyze.dir/cpp/ocr_db_crnn.cc.o: \
   /home/zjl/opt/android_ndk/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/vector \
   /home/zjl/opt/android_ndk/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__bit_reference \
   /home/zjl/opt/android_ndk/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__split_buffer \
-  /home/zjl/project_d/test1/include/paddle_place.h \
+  /home/zjl/project/project_d/test1/include/paddle_place.h \
   /home/zjl/opt/android_ndk/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/set \
-  /home/zjl/project_d/test1/include/cls_process.h \
+  /home/zjl/project/project_d/test1/include/cls_process.h \
   /home/zjl/opt/android_ndk/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/fstream \
   /home/zjl/opt/android_ndk/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/ostream \
   /home/zjl/opt/android_ndk/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/ios \
@@ -206,12 +206,12 @@ CMakeFiles/imageanalyze.dir/cpp/ocr_db_crnn.cc.o: \
   /home/zjl/opt/opencv/OpenCV-android-sdk/sdk/native/jni/include/opencv2/imgcodecs.hpp \
   /home/zjl/opt/opencv/OpenCV-android-sdk/sdk/native/jni/include/opencv2/imgproc.hpp \
   /home/zjl/opt/opencv/OpenCV-android-sdk/sdk/native/jni/include/opencv2/./imgproc/segmentation.hpp \
-  /home/zjl/project_d/test1/include/crnn_process.h \
-  /home/zjl/project_d/test1/include/db_post_process.h \
-  /home/zjl/project_d/test1/include/clipper.hpp \
+  /home/zjl/project/project_d/test1/include/crnn_process.h \
+  /home/zjl/project/project_d/test1/include/db_post_process.h \
+  /home/zjl/project/project_d/test1/include/clipper.hpp \
   /home/zjl/opt/android_ndk/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/list \
   /home/zjl/opt/android_ndk/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/queue \
-  /home/zjl/project_d/test1/include/utils.h \
+  /home/zjl/project/project_d/test1/include/utils.h \
   /home/zjl/opt/opencv/OpenCV-android-sdk/sdk/native/jni/include/opencv2/opencv.hpp \
   /home/zjl/opt/opencv/OpenCV-android-sdk/sdk/native/jni/include/opencv2/calib3d.hpp \
   /home/zjl/opt/opencv/OpenCV-android-sdk/sdk/native/jni/include/opencv2/features2d.hpp \
@@ -285,6 +285,6 @@ CMakeFiles/imageanalyze.dir/cpp/ocr_db_crnn.cc.o: \
   /home/zjl/opt/opencv/OpenCV-android-sdk/sdk/native/jni/include/opencv2/video.hpp \
   /home/zjl/opt/opencv/OpenCV-android-sdk/sdk/native/jni/include/opencv2/video/tracking.hpp \
   /home/zjl/opt/opencv/OpenCV-android-sdk/sdk/native/jni/include/opencv2/video/background_segm.hpp \
-  /home/zjl/project_d/test1/include/ocr_db_crnn.h \
-  /home/zjl/project_d/test1/AutoLog/auto_log/lite_autolog.h \
+  /home/zjl/project/project_d/test1/include/ocr_db_crnn.h \
+  /home/zjl/project/project_d/test1/AutoLog/auto_log/lite_autolog.h \
   /home/zjl/opt/android_ndk/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/numeric

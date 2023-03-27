@@ -1,5 +1,5 @@
 CMakeFiles/imageanalyze.dir/cpp/utils.cc.o: \
-  /home/zjl/project_d/test1/cpp/utils.cc \
+  /home/zjl/project/project_d/test1/cpp/utils.cc \
   /home/zjl/opt/opencv/OpenCV-android-sdk/sdk/native/jni/include/opencv2/opencv.hpp \
   /home/zjl/opt/opencv/OpenCV-android-sdk/sdk/native/jni/include/opencv2/opencv_modules.hpp \
   /home/zjl/opt/opencv/OpenCV-android-sdk/sdk/native/jni/include/opencv2/core.hpp \
@@ -275,16 +275,16 @@ CMakeFiles/imageanalyze.dir/cpp/utils.cc.o: \
   /home/zjl/opt/opencv/OpenCV-android-sdk/sdk/native/jni/include/opencv2/video.hpp \
   /home/zjl/opt/opencv/OpenCV-android-sdk/sdk/native/jni/include/opencv2/video/tracking.hpp \
   /home/zjl/opt/opencv/OpenCV-android-sdk/sdk/native/jni/include/opencv2/video/background_segm.hpp \
-  /home/zjl/project_d/test1/include/utils.h \
-  /home/zjl/project_d/test1/include/ocr_db_crnn.h \
-  /home/zjl/project_d/test1/include/paddle_api.h \
-  /home/zjl/project_d/test1/include/paddle_place.h \
-  /home/zjl/project_d/test1/include/cls_process.h \
+  /home/zjl/project/project_d/test1/include/utils.h \
+  /home/zjl/project/project_d/test1/include/ocr_db_crnn.h \
+  /home/zjl/project/project_d/test1/include/paddle_api.h \
+  /home/zjl/project/project_d/test1/include/paddle_place.h \
+  /home/zjl/project/project_d/test1/include/cls_process.h \
   /home/zjl/opt/android_ndk/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/fstream \
   /home/zjl/opt/android_ndk/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/filesystem \
   /home/zjl/opt/android_ndk/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/stack \
-  /home/zjl/project_d/test1/include/crnn_process.h \
-  /home/zjl/project_d/test1/include/db_post_process.h \
-  /home/zjl/project_d/test1/include/clipper.hpp \
-  /home/zjl/project_d/test1/AutoLog/auto_log/lite_autolog.h \
+  /home/zjl/project/project_d/test1/include/crnn_process.h \
+  /home/zjl/project/project_d/test1/include/db_post_process.h \
+  /home/zjl/project/project_d/test1/include/clipper.hpp \
+  /home/zjl/project/project_d/test1/AutoLog/auto_log/lite_autolog.h \
   /home/zjl/opt/android_ndk/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/numeric

@@ -1,6 +1,6 @@
 CMakeFiles/imageanalyze.dir/cpp/crnn_process.cc.o: \
-  /home/zjl/project_d/test1/cpp/crnn_process.cc \
-  /home/zjl/project_d/test1/include/crnn_process.h \
+  /home/zjl/project/project_d/test1/cpp/crnn_process.cc \
+  /home/zjl/project/project_d/test1/include/crnn_process.h \
   /home/zjl/opt/android_ndk/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/cstring \
   /home/zjl/opt/android_ndk/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config \
   /home/zjl/opt/android_ndk/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/features.h \

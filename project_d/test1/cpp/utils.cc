@@ -403,8 +403,10 @@ vector<MyData> circle_detector(string path_left, string path_right) {
             Rect roi(int(a - r / 2) - 20, int(b - r / 2) - 20, r + 40, r + 40);
             Mat cropped = img_right(roi);
             /////////检测到的字符
-            string cur_string = "KKKKKKKK";
+            //string cur_string = "KKKKKKKK";
             //string cur_string = cap2str(cropped);
+            cv::Mat title = cv::imread("/data/local/tmp/debug_v7/utils/11.jpg");//ceshi
+            string cur_string = cap2str(title);//ceshi
             record.insert(cur_string);
             /////////
             Point2d real_xy = calculate_XYZ(b,a);
@@ -427,7 +429,8 @@ vector<MyData> circle_detector(string path_left, string path_right) {
             /////////检测到的字符
             string cur_string = "KKKKKKKK";
             //string cur_string = cap2str(cropped);
-            
+            //cv::Mat title = cv::imread("/data/local/tmp/debug_v7/utils/11.jpg");
+            //string cur_string = cap2str(title);
             std::set<string>::iterator it;
             it = record.find(cur_string);
             ///

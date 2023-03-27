@@ -21,7 +21,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/zjl/opt/opencv/OpenCV-android-sdk/sdk/native/jni/abi-armeabi-v7a/OpenCVConfig.cmake"
   "/home/zjl/opt/opencv/OpenCV-android-sdk/sdk/native/jni/abi-armeabi-v7a/OpenCVModules-release.cmake"
   "/home/zjl/opt/opencv/OpenCV-android-sdk/sdk/native/jni/abi-armeabi-v7a/OpenCVModules.cmake"
-  "/home/zjl/project_d/test1/CMakeLists.txt"
+  "/home/zjl/project/project_d/test1/CMakeLists.txt"
   "CMakeFiles/3.26.1/CMakeCCompiler.cmake"
   "CMakeFiles/3.26.1/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.26.1/CMakeSystem.cmake"

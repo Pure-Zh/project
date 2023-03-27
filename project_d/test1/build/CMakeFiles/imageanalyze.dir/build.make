@@ -53,10 +53,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/zjl/project_d/test1
+CMAKE_SOURCE_DIR = /home/zjl/project/project_d/test1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/zjl/project_d/test1/build
+CMAKE_BINARY_DIR = /home/zjl/project/project_d/test1/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/imageanalyze.dir/depend.make
@@ -70,102 +70,102 @@ include CMakeFiles/imageanalyze.dir/progress.make
 include CMakeFiles/imageanalyze.dir/flags.make
 
 CMakeFiles/imageanalyze.dir/cpp/ImageAnalyzeTool.cc.o: CMakeFiles/imageanalyze.dir/flags.make
-CMakeFiles/imageanalyze.dir/cpp/ImageAnalyzeTool.cc.o: /home/zjl/project_d/test1/cpp/ImageAnalyzeTool.cc
+CMakeFiles/imageanalyze.dir/cpp/ImageAnalyzeTool.cc.o: /home/zjl/project/project_d/test1/cpp/ImageAnalyzeTool.cc
 CMakeFiles/imageanalyze.dir/cpp/ImageAnalyzeTool.cc.o: CMakeFiles/imageanalyze.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zjl/project_d/test1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/imageanalyze.dir/cpp/ImageAnalyzeTool.cc.o"
-	/home/zjl/opt/android_ndk/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=armv7-none-linux-androideabi21 --sysroot=/home/zjl/opt/android_ndk/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/imageanalyze.dir/cpp/ImageAnalyzeTool.cc.o -MF CMakeFiles/imageanalyze.dir/cpp/ImageAnalyzeTool.cc.o.d -o CMakeFiles/imageanalyze.dir/cpp/ImageAnalyzeTool.cc.o -c /home/zjl/project_d/test1/cpp/ImageAnalyzeTool.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zjl/project/project_d/test1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/imageanalyze.dir/cpp/ImageAnalyzeTool.cc.o"
+	/home/zjl/opt/android_ndk/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=armv7-none-linux-androideabi21 --sysroot=/home/zjl/opt/android_ndk/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/imageanalyze.dir/cpp/ImageAnalyzeTool.cc.o -MF CMakeFiles/imageanalyze.dir/cpp/ImageAnalyzeTool.cc.o.d -o CMakeFiles/imageanalyze.dir/cpp/ImageAnalyzeTool.cc.o -c /home/zjl/project/project_d/test1/cpp/ImageAnalyzeTool.cc
 
 CMakeFiles/imageanalyze.dir/cpp/ImageAnalyzeTool.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/imageanalyze.dir/cpp/ImageAnalyzeTool.cc.i"
-	/home/zjl/opt/android_ndk/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=armv7-none-linux-androideabi21 --sysroot=/home/zjl/opt/android_ndk/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zjl/project_d/test1/cpp/ImageAnalyzeTool.cc > CMakeFiles/imageanalyze.dir/cpp/ImageAnalyzeTool.cc.i
+	/home/zjl/opt/android_ndk/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=armv7-none-linux-androideabi21 --sysroot=/home/zjl/opt/android_ndk/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zjl/project/project_d/test1/cpp/ImageAnalyzeTool.cc > CMakeFiles/imageanalyze.dir/cpp/ImageAnalyzeTool.cc.i
 
 CMakeFiles/imageanalyze.dir/cpp/ImageAnalyzeTool.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/imageanalyze.dir/cpp/ImageAnalyzeTool.cc.s"
-	/home/zjl/opt/android_ndk/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=armv7-none-linux-androideabi21 --sysroot=/home/zjl/opt/android_ndk/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zjl/project_d/test1/cpp/ImageAnalyzeTool.cc -o CMakeFiles/imageanalyze.dir/cpp/ImageAnalyzeTool.cc.s
+	/home/zjl/opt/android_ndk/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=armv7-none-linux-androideabi21 --sysroot=/home/zjl/opt/android_ndk/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zjl/project/project_d/test1/cpp/ImageAnalyzeTool.cc -o CMakeFiles/imageanalyze.dir/cpp/ImageAnalyzeTool.cc.s
 
 CMakeFiles/imageanalyze.dir/cpp/cls_process.cc.o: CMakeFiles/imageanalyze.dir/flags.make
-CMakeFiles/imageanalyze.dir/cpp/cls_process.cc.o: /home/zjl/project_d/test1/cpp/cls_process.cc
+CMakeFiles/imageanalyze.dir/cpp/cls_process.cc.o: /home/zjl/project/project_d/test1/cpp/cls_process.cc
 CMakeFiles/imageanalyze.dir/cpp/cls_process.cc.o: CMakeFiles/imageanalyze.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zjl/project_d/test1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/imageanalyze.dir/cpp/cls_process.cc.o"
-	/home/zjl/opt/android_ndk/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=armv7-none-linux-androideabi21 --sysroot=/home/zjl/opt/android_ndk/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/imageanalyze.dir/cpp/cls_process.cc.o -MF CMakeFiles/imageanalyze.dir/cpp/cls_process.cc.o.d -o CMakeFiles/imageanalyze.dir/cpp/cls_process.cc.o -c /home/zjl/project_d/test1/cpp/cls_process.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zjl/project/project_d/test1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/imageanalyze.dir/cpp/cls_process.cc.o"
+	/home/zjl/opt/android_ndk/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=armv7-none-linux-androideabi21 --sysroot=/home/zjl/opt/android_ndk/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/imageanalyze.dir/cpp/cls_process.cc.o -MF CMakeFiles/imageanalyze.dir/cpp/cls_process.cc.o.d -o CMakeFiles/imageanalyze.dir/cpp/cls_process.cc.o -c /home/zjl/project/project_d/test1/cpp/cls_process.cc
 
 CMakeFiles/imageanalyze.dir/cpp/cls_process.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/imageanalyze.dir/cpp/cls_process.cc.i"
-	/home/zjl/opt/android_ndk/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=armv7-none-linux-androideabi21 --sysroot=/home/zjl/opt/android_ndk/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zjl/project_d/test1/cpp/cls_process.cc > CMakeFiles/imageanalyze.dir/cpp/cls_process.cc.i
+	/home/zjl/opt/android_ndk/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=armv7-none-linux-androideabi21 --sysroot=/home/zjl/opt/android_ndk/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zjl/project/project_d/test1/cpp/cls_process.cc > CMakeFiles/imageanalyze.dir/cpp/cls_process.cc.i
 
 CMakeFiles/imageanalyze.dir/cpp/cls_process.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/imageanalyze.dir/cpp/cls_process.cc.s"
-	/home/zjl/opt/android_ndk/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=armv7-none-linux-androideabi21 --sysroot=/home/zjl/opt/android_ndk/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zjl/project_d/test1/cpp/cls_process.cc -o CMakeFiles/imageanalyze.dir/cpp/cls_process.cc.s
+	/home/zjl/opt/android_ndk/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=armv7-none-linux-androideabi21 --sysroot=/home/zjl/opt/android_ndk/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zjl/project/project_d/test1/cpp/cls_process.cc -o CMakeFiles/imageanalyze.dir/cpp/cls_process.cc.s
 
 CMakeFiles/imageanalyze.dir/cpp/crnn_process.cc.o: CMakeFiles/imageanalyze.dir/flags.make
-CMakeFiles/imageanalyze.dir/cpp/crnn_process.cc.o: /home/zjl/project_d/test1/cpp/crnn_process.cc
+CMakeFiles/imageanalyze.dir/cpp/crnn_process.cc.o: /home/zjl/project/project_d/test1/cpp/crnn_process.cc
 CMakeFiles/imageanalyze.dir/cpp/crnn_process.cc.o: CMakeFiles/imageanalyze.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zjl/project_d/test1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/imageanalyze.dir/cpp/crnn_process.cc.o"
-	/home/zjl/opt/android_ndk/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=armv7-none-linux-androideabi21 --sysroot=/home/zjl/opt/android_ndk/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/imageanalyze.dir/cpp/crnn_process.cc.o -MF CMakeFiles/imageanalyze.dir/cpp/crnn_process.cc.o.d -o CMakeFiles/imageanalyze.dir/cpp/crnn_process.cc.o -c /home/zjl/project_d/test1/cpp/crnn_process.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zjl/project/project_d/test1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/imageanalyze.dir/cpp/crnn_process.cc.o"
+	/home/zjl/opt/android_ndk/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=armv7-none-linux-androideabi21 --sysroot=/home/zjl/opt/android_ndk/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/imageanalyze.dir/cpp/crnn_process.cc.o -MF CMakeFiles/imageanalyze.dir/cpp/crnn_process.cc.o.d -o CMakeFiles/imageanalyze.dir/cpp/crnn_process.cc.o -c /home/zjl/project/project_d/test1/cpp/crnn_process.cc
 
 CMakeFiles/imageanalyze.dir/cpp/crnn_process.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/imageanalyze.dir/cpp/crnn_process.cc.i"
-	/home/zjl/opt/android_ndk/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=armv7-none-linux-androideabi21 --sysroot=/home/zjl/opt/android_ndk/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zjl/project_d/test1/cpp/crnn_process.cc > CMakeFiles/imageanalyze.dir/cpp/crnn_process.cc.i
+	/home/zjl/opt/android_ndk/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=armv7-none-linux-androideabi21 --sysroot=/home/zjl/opt/android_ndk/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zjl/project/project_d/test1/cpp/crnn_process.cc > CMakeFiles/imageanalyze.dir/cpp/crnn_process.cc.i
 
 CMakeFiles/imageanalyze.dir/cpp/crnn_process.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/imageanalyze.dir/cpp/crnn_process.cc.s"
-	/home/zjl/opt/android_ndk/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=armv7-none-linux-androideabi21 --sysroot=/home/zjl/opt/android_ndk/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zjl/project_d/test1/cpp/crnn_process.cc -o CMakeFiles/imageanalyze.dir/cpp/crnn_process.cc.s
+	/home/zjl/opt/android_ndk/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=armv7-none-linux-androideabi21 --sysroot=/home/zjl/opt/android_ndk/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zjl/project/project_d/test1/cpp/crnn_process.cc -o CMakeFiles/imageanalyze.dir/cpp/crnn_process.cc.s
 
 CMakeFiles/imageanalyze.dir/cpp/db_post_process.cc.o: CMakeFiles/imageanalyze.dir/flags.make
-CMakeFiles/imageanalyze.dir/cpp/db_post_process.cc.o: /home/zjl/project_d/test1/cpp/db_post_process.cc
+CMakeFiles/imageanalyze.dir/cpp/db_post_process.cc.o: /home/zjl/project/project_d/test1/cpp/db_post_process.cc
 CMakeFiles/imageanalyze.dir/cpp/db_post_process.cc.o: CMakeFiles/imageanalyze.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zjl/project_d/test1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/imageanalyze.dir/cpp/db_post_process.cc.o"
-	/home/zjl/opt/android_ndk/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=armv7-none-linux-androideabi21 --sysroot=/home/zjl/opt/android_ndk/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/imageanalyze.dir/cpp/db_post_process.cc.o -MF CMakeFiles/imageanalyze.dir/cpp/db_post_process.cc.o.d -o CMakeFiles/imageanalyze.dir/cpp/db_post_process.cc.o -c /home/zjl/project_d/test1/cpp/db_post_process.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zjl/project/project_d/test1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/imageanalyze.dir/cpp/db_post_process.cc.o"
+	/home/zjl/opt/android_ndk/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=armv7-none-linux-androideabi21 --sysroot=/home/zjl/opt/android_ndk/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/imageanalyze.dir/cpp/db_post_process.cc.o -MF CMakeFiles/imageanalyze.dir/cpp/db_post_process.cc.o.d -o CMakeFiles/imageanalyze.dir/cpp/db_post_process.cc.o -c /home/zjl/project/project_d/test1/cpp/db_post_process.cc
 
 CMakeFiles/imageanalyze.dir/cpp/db_post_process.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/imageanalyze.dir/cpp/db_post_process.cc.i"
-	/home/zjl/opt/android_ndk/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=armv7-none-linux-androideabi21 --sysroot=/home/zjl/opt/android_ndk/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zjl/project_d/test1/cpp/db_post_process.cc > CMakeFiles/imageanalyze.dir/cpp/db_post_process.cc.i
+	/home/zjl/opt/android_ndk/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=armv7-none-linux-androideabi21 --sysroot=/home/zjl/opt/android_ndk/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zjl/project/project_d/test1/cpp/db_post_process.cc > CMakeFiles/imageanalyze.dir/cpp/db_post_process.cc.i
 
 CMakeFiles/imageanalyze.dir/cpp/db_post_process.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/imageanalyze.dir/cpp/db_post_process.cc.s"
-	/home/zjl/opt/android_ndk/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=armv7-none-linux-androideabi21 --sysroot=/home/zjl/opt/android_ndk/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zjl/project_d/test1/cpp/db_post_process.cc -o CMakeFiles/imageanalyze.dir/cpp/db_post_process.cc.s
+	/home/zjl/opt/android_ndk/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=armv7-none-linux-androideabi21 --sysroot=/home/zjl/opt/android_ndk/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zjl/project/project_d/test1/cpp/db_post_process.cc -o CMakeFiles/imageanalyze.dir/cpp/db_post_process.cc.s
 
 CMakeFiles/imageanalyze.dir/cpp/ocr_db_crnn.cc.o: CMakeFiles/imageanalyze.dir/flags.make
-CMakeFiles/imageanalyze.dir/cpp/ocr_db_crnn.cc.o: /home/zjl/project_d/test1/cpp/ocr_db_crnn.cc
+CMakeFiles/imageanalyze.dir/cpp/ocr_db_crnn.cc.o: /home/zjl/project/project_d/test1/cpp/ocr_db_crnn.cc
 CMakeFiles/imageanalyze.dir/cpp/ocr_db_crnn.cc.o: CMakeFiles/imageanalyze.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zjl/project_d/test1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/imageanalyze.dir/cpp/ocr_db_crnn.cc.o"
-	/home/zjl/opt/android_ndk/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=armv7-none-linux-androideabi21 --sysroot=/home/zjl/opt/android_ndk/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/imageanalyze.dir/cpp/ocr_db_crnn.cc.o -MF CMakeFiles/imageanalyze.dir/cpp/ocr_db_crnn.cc.o.d -o CMakeFiles/imageanalyze.dir/cpp/ocr_db_crnn.cc.o -c /home/zjl/project_d/test1/cpp/ocr_db_crnn.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zjl/project/project_d/test1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/imageanalyze.dir/cpp/ocr_db_crnn.cc.o"
+	/home/zjl/opt/android_ndk/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=armv7-none-linux-androideabi21 --sysroot=/home/zjl/opt/android_ndk/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/imageanalyze.dir/cpp/ocr_db_crnn.cc.o -MF CMakeFiles/imageanalyze.dir/cpp/ocr_db_crnn.cc.o.d -o CMakeFiles/imageanalyze.dir/cpp/ocr_db_crnn.cc.o -c /home/zjl/project/project_d/test1/cpp/ocr_db_crnn.cc
 
 CMakeFiles/imageanalyze.dir/cpp/ocr_db_crnn.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/imageanalyze.dir/cpp/ocr_db_crnn.cc.i"
-	/home/zjl/opt/android_ndk/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=armv7-none-linux-androideabi21 --sysroot=/home/zjl/opt/android_ndk/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zjl/project_d/test1/cpp/ocr_db_crnn.cc > CMakeFiles/imageanalyze.dir/cpp/ocr_db_crnn.cc.i
+	/home/zjl/opt/android_ndk/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=armv7-none-linux-androideabi21 --sysroot=/home/zjl/opt/android_ndk/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zjl/project/project_d/test1/cpp/ocr_db_crnn.cc > CMakeFiles/imageanalyze.dir/cpp/ocr_db_crnn.cc.i
 
 CMakeFiles/imageanalyze.dir/cpp/ocr_db_crnn.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/imageanalyze.dir/cpp/ocr_db_crnn.cc.s"
-	/home/zjl/opt/android_ndk/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=armv7-none-linux-androideabi21 --sysroot=/home/zjl/opt/android_ndk/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zjl/project_d/test1/cpp/ocr_db_crnn.cc -o CMakeFiles/imageanalyze.dir/cpp/ocr_db_crnn.cc.s
+	/home/zjl/opt/android_ndk/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=armv7-none-linux-androideabi21 --sysroot=/home/zjl/opt/android_ndk/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zjl/project/project_d/test1/cpp/ocr_db_crnn.cc -o CMakeFiles/imageanalyze.dir/cpp/ocr_db_crnn.cc.s
 
 CMakeFiles/imageanalyze.dir/cpp/utils.cc.o: CMakeFiles/imageanalyze.dir/flags.make
-CMakeFiles/imageanalyze.dir/cpp/utils.cc.o: /home/zjl/project_d/test1/cpp/utils.cc
+CMakeFiles/imageanalyze.dir/cpp/utils.cc.o: /home/zjl/project/project_d/test1/cpp/utils.cc
 CMakeFiles/imageanalyze.dir/cpp/utils.cc.o: CMakeFiles/imageanalyze.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zjl/project_d/test1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/imageanalyze.dir/cpp/utils.cc.o"
-	/home/zjl/opt/android_ndk/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=armv7-none-linux-androideabi21 --sysroot=/home/zjl/opt/android_ndk/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/imageanalyze.dir/cpp/utils.cc.o -MF CMakeFiles/imageanalyze.dir/cpp/utils.cc.o.d -o CMakeFiles/imageanalyze.dir/cpp/utils.cc.o -c /home/zjl/project_d/test1/cpp/utils.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zjl/project/project_d/test1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/imageanalyze.dir/cpp/utils.cc.o"
+	/home/zjl/opt/android_ndk/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=armv7-none-linux-androideabi21 --sysroot=/home/zjl/opt/android_ndk/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/imageanalyze.dir/cpp/utils.cc.o -MF CMakeFiles/imageanalyze.dir/cpp/utils.cc.o.d -o CMakeFiles/imageanalyze.dir/cpp/utils.cc.o -c /home/zjl/project/project_d/test1/cpp/utils.cc
 
 CMakeFiles/imageanalyze.dir/cpp/utils.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/imageanalyze.dir/cpp/utils.cc.i"
-	/home/zjl/opt/android_ndk/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=armv7-none-linux-androideabi21 --sysroot=/home/zjl/opt/android_ndk/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zjl/project_d/test1/cpp/utils.cc > CMakeFiles/imageanalyze.dir/cpp/utils.cc.i
+	/home/zjl/opt/android_ndk/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=armv7-none-linux-androideabi21 --sysroot=/home/zjl/opt/android_ndk/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zjl/project/project_d/test1/cpp/utils.cc > CMakeFiles/imageanalyze.dir/cpp/utils.cc.i
 
 CMakeFiles/imageanalyze.dir/cpp/utils.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/imageanalyze.dir/cpp/utils.cc.s"
-	/home/zjl/opt/android_ndk/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=armv7-none-linux-androideabi21 --sysroot=/home/zjl/opt/android_ndk/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zjl/project_d/test1/cpp/utils.cc -o CMakeFiles/imageanalyze.dir/cpp/utils.cc.s
+	/home/zjl/opt/android_ndk/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=armv7-none-linux-androideabi21 --sysroot=/home/zjl/opt/android_ndk/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zjl/project/project_d/test1/cpp/utils.cc -o CMakeFiles/imageanalyze.dir/cpp/utils.cc.s
 
 CMakeFiles/imageanalyze.dir/cpp/clipper.cpp.o: CMakeFiles/imageanalyze.dir/flags.make
-CMakeFiles/imageanalyze.dir/cpp/clipper.cpp.o: /home/zjl/project_d/test1/cpp/clipper.cpp
+CMakeFiles/imageanalyze.dir/cpp/clipper.cpp.o: /home/zjl/project/project_d/test1/cpp/clipper.cpp
 CMakeFiles/imageanalyze.dir/cpp/clipper.cpp.o: CMakeFiles/imageanalyze.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zjl/project_d/test1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/imageanalyze.dir/cpp/clipper.cpp.o"
-	/home/zjl/opt/android_ndk/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=armv7-none-linux-androideabi21 --sysroot=/home/zjl/opt/android_ndk/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/imageanalyze.dir/cpp/clipper.cpp.o -MF CMakeFiles/imageanalyze.dir/cpp/clipper.cpp.o.d -o CMakeFiles/imageanalyze.dir/cpp/clipper.cpp.o -c /home/zjl/project_d/test1/cpp/clipper.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zjl/project/project_d/test1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/imageanalyze.dir/cpp/clipper.cpp.o"
+	/home/zjl/opt/android_ndk/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=armv7-none-linux-androideabi21 --sysroot=/home/zjl/opt/android_ndk/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/imageanalyze.dir/cpp/clipper.cpp.o -MF CMakeFiles/imageanalyze.dir/cpp/clipper.cpp.o.d -o CMakeFiles/imageanalyze.dir/cpp/clipper.cpp.o -c /home/zjl/project/project_d/test1/cpp/clipper.cpp
 
 CMakeFiles/imageanalyze.dir/cpp/clipper.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/imageanalyze.dir/cpp/clipper.cpp.i"
-	/home/zjl/opt/android_ndk/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=armv7-none-linux-androideabi21 --sysroot=/home/zjl/opt/android_ndk/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zjl/project_d/test1/cpp/clipper.cpp > CMakeFiles/imageanalyze.dir/cpp/clipper.cpp.i
+	/home/zjl/opt/android_ndk/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=armv7-none-linux-androideabi21 --sysroot=/home/zjl/opt/android_ndk/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zjl/project/project_d/test1/cpp/clipper.cpp > CMakeFiles/imageanalyze.dir/cpp/clipper.cpp.i
 
 CMakeFiles/imageanalyze.dir/cpp/clipper.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/imageanalyze.dir/cpp/clipper.cpp.s"
-	/home/zjl/opt/android_ndk/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=armv7-none-linux-androideabi21 --sysroot=/home/zjl/opt/android_ndk/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zjl/project_d/test1/cpp/clipper.cpp -o CMakeFiles/imageanalyze.dir/cpp/clipper.cpp.s
+	/home/zjl/opt/android_ndk/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=armv7-none-linux-androideabi21 --sysroot=/home/zjl/opt/android_ndk/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zjl/project/project_d/test1/cpp/clipper.cpp -o CMakeFiles/imageanalyze.dir/cpp/clipper.cpp.s
 
 # Object files for target imageanalyze
 imageanalyze_OBJECTS = \
@@ -226,7 +226,7 @@ libs/armeabi-v7a/libimageanalyze.so: /home/zjl/opt/opencv/OpenCV-android-sdk/sdk
 libs/armeabi-v7a/libimageanalyze.so: /home/zjl/opt/opencv/OpenCV-android-sdk/sdk/native/3rdparty/libs/armeabi-v7a/libittnotify.a
 libs/armeabi-v7a/libimageanalyze.so: /home/zjl/opt/opencv/OpenCV-android-sdk/sdk/native/3rdparty/libs/armeabi-v7a/libtegra_hal.a
 libs/armeabi-v7a/libimageanalyze.so: CMakeFiles/imageanalyze.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/zjl/project_d/test1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX shared library libs/armeabi-v7a/libimageanalyze.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/zjl/project/project_d/test1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX shared library libs/armeabi-v7a/libimageanalyze.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/imageanalyze.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -238,6 +238,6 @@ CMakeFiles/imageanalyze.dir/clean:
 .PHONY : CMakeFiles/imageanalyze.dir/clean
 
 CMakeFiles/imageanalyze.dir/depend:
-	cd /home/zjl/project_d/test1/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/zjl/project_d/test1 /home/zjl/project_d/test1 /home/zjl/project_d/test1/build /home/zjl/project_d/test1/build /home/zjl/project_d/test1/build/CMakeFiles/imageanalyze.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/zjl/project/project_d/test1/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/zjl/project/project_d/test1 /home/zjl/project/project_d/test1 /home/zjl/project/project_d/test1/build /home/zjl/project/project_d/test1/build /home/zjl/project/project_d/test1/build/CMakeFiles/imageanalyze.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/imageanalyze.dir/depend
 

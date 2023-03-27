@@ -1,6 +1,6 @@
 CMakeFiles/imageanalyze.dir/cpp/db_post_process.cc.o: \
-  /home/zjl/project_d/test1/cpp/db_post_process.cc \
-  /home/zjl/project_d/test1/include/db_post_process.h \
+  /home/zjl/project/project_d/test1/cpp/db_post_process.cc \
+  /home/zjl/project/project_d/test1/include/db_post_process.h \
   /home/zjl/opt/android_ndk/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/math.h \
   /home/zjl/opt/android_ndk/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config \
   /home/zjl/opt/android_ndk/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/features.h \
@@ -162,7 +162,7 @@ CMakeFiles/imageanalyze.dir/cpp/db_post_process.cc.o: \
   /home/zjl/opt/android_ndk/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/optional \
   /home/zjl/opt/android_ndk/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/vector \
   /home/zjl/opt/android_ndk/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__split_buffer \
-  /home/zjl/project_d/test1/include/clipper.hpp \
+  /home/zjl/project/project_d/test1/include/clipper.hpp \
   /home/zjl/opt/android_ndk/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/list \
   /home/zjl/opt/android_ndk/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/set \
   /home/zjl/opt/android_ndk/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/queue \
