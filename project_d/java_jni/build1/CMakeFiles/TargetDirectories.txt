@@ -1,0 +1,3 @@
+/home/zjl/java_jni/build/CMakeFiles/wz.dir
+/home/zjl/java_jni/build/CMakeFiles/edit_cache.dir
+/home/zjl/java_jni/build/CMakeFiles/rebuild_cache.dir

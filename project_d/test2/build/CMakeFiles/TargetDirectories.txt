@@ -1,0 +1,3 @@
+/home/zjl/project_d/test2/build/CMakeFiles/imageanalyze.dir
+/home/zjl/project_d/test2/build/CMakeFiles/edit_cache.dir
+/home/zjl/project_d/test2/build/CMakeFiles/rebuild_cache.dir
