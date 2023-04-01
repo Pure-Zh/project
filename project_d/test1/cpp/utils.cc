@@ -7,6 +7,7 @@
 #include <algorithm>
 #include "utils.h"
 #include "ocr_db_crnn.h"
+#include <android/log.h>
 
 using std::string;
 using std::vector;
@@ -383,7 +384,7 @@ vector<Vec3f> circle_help(Mat img) {
 
 }
 
-vector<MyData> circle_detector(string path_left, string path_right) {
+vector<MyData> circle_detector(string path_left, string path_right, string tool_path) {
     Mat img_left = imread(path_left, 1);
     Mat img_right = imread(path_right, 1);
 
@@ -404,9 +405,18 @@ vector<MyData> circle_detector(string path_left, string path_right) {
             Mat cropped = img_right(roi);
             /////////检测到的字符
             //string cur_string = "KKKKKKKK";
-            //string cur_string = cap2str(cropped);
-            cv::Mat title = cv::imread("/data/local/tmp/debug_v7/utils/11.jpg");//ceshi
-            string cur_string = cap2str(title);//ceshi
+
+            //cv::Mat title = cv::imread("/data/local/tmp/debug_v7/utils/11.jpg");//ceshi
+            string cur_string;
+            try{
+                // string cur_string = cap2str(title);//ceshi
+                cur_string = cap2str(cropped, tool_path);
+            }
+            catch(...){
+            	std::cerr<< "Title is empty!";
+            	__android_log_print(ANDROID_LOG_DEBUG, "MyAppTag", "%s", "Title is empty!");
+            	continue;
+            }
             record.insert(cur_string);
             /////////
             Point2d real_xy = calculate_XYZ(b,a);
@@ -427,9 +437,21 @@ vector<MyData> circle_detector(string path_left, string path_right) {
             Rect roi(int(a - r / 2) - 20, int(b - r / 2) - 20, r + 40, r + 40);
             Mat cropped = img_left(roi);
             /////////检测到的字符
-            string cur_string = "KKKKKKKK";
-            //string cur_string = cap2str(cropped);
+            // string cur_string = "KKKKKKKK";
             //cv::Mat title = cv::imread("/data/local/tmp/debug_v7/utils/11.jpg");
+            string cur_string;
+            try{
+                // string cur_string = cap2str(title);//ceshi
+                cur_string = cap2str(cropped, tool_path);
+                
+            }
+            catch(...){
+            	std::cerr<< "Title is empty!";
+            	__android_log_print(ANDROID_LOG_DEBUG, "MyAppTag", "%s", "Title is empty!");
+            	continue;
+            }
+            //string cur_string = cap2str(cropped);
+
             //string cur_string = cap2str(title);
             std::set<string>::iterator it;
             it = record.find(cur_string);

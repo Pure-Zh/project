@@ -10,10 +10,10 @@ extern "C" {
 /*
  * Class:     com_champer_imageanalyze_ImageAnalyzeTool
  * Method:    analyze
- * Signature: (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+ * Signature: (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
  */
 JNIEXPORT jstring JNICALL Java_com_champer_imageanalyze_ImageAnalyzeTool_analyze
-  (JNIEnv *, jobject, jstring, jstring);
+  (JNIEnv *, jobject, jstring, jstring, jstring);
 
 /*
  * Class:     com_champer_imageanalyze_ImageAnalyzeTool

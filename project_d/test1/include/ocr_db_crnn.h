@@ -46,5 +46,5 @@ std::vector<std::string> split(const std::string &str,
                                const std::string &delim);
 
 std::map<std::string, double> LoadConfigTxt(std::string config_path);
-std::vector<std::pair<std::string, double>> system(const cv::Mat &img1, const cv::Mat &img2);
-std::string cap2str(cv::Mat cap);
+std::vector<std::pair<std::string, double>> system(const cv::Mat &img1, const cv::Mat &img2,const string tool);
+std::string cap2str(cv::Mat cap, const string tool_path);

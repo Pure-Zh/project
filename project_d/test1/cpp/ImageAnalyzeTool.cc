@@ -16,9 +16,10 @@ using namespace cv;
 
 
 
-JNIEXPORT jstring JNICALL Java_com_champer_imageanalyze_ImageAnalyzeTool_analyze(JNIEnv *env, jobject obj, jstring str1, jstring str2) {
+JNIEXPORT jstring JNICALL Java_com_champer_imageanalyze_ImageAnalyzeTool_analyze(JNIEnv *env, jobject obj, jstring str1, jstring str2,jstring str3) {
     const char *c_str1 = env->GetStringUTFChars(str1, NULL);
     const char *c_str2 = env->GetStringUTFChars(str2, NULL);
+    const char *c_str3 = env->GetStringUTFChars(str3, NULL);
     //const int thresh = 210;
     //Mat imgl = imread(c_str1,IMREAD_COLOR);
     //Mat imgr = imread(c_str2,IMREAD_COLOR);
@@ -33,7 +34,7 @@ JNIEXPORT jstring JNICALL Java_com_champer_imageanalyze_ImageAnalyzeTool_analyze
     //cout<<typeid(c_str1).name()<<c_str1<<" "<<typeid(c_str2).name()<<c_str2<<endl;
     __android_log_print(ANDROID_LOG_DEBUG, "MyAppTag", "%s", typeid(c_str2).name());
     __android_log_print(ANDROID_LOG_DEBUG, "MyAppTag", "%s", c_str2);
-    vector<MyData> circles = circle_detector(c_str1, c_str2);
+    vector<MyData> circles = circle_detector(c_str1, c_str2, c_str3);
     //vector<pair<int, Point2d>> circles = circle_detector(c_str2);
     //vector<pair<int, Point2d>> resultv;
     string p_result;
@@ -149,6 +150,7 @@ JNIEXPORT jstring JNICALL Java_com_champer_imageanalyze_ImageAnalyzeTool_analyze
     
     env->ReleaseStringUTFChars(str1, c_str1);
     env->ReleaseStringUTFChars(str2, c_str2);
+    env->ReleaseStringUTFChars(str3, c_str3);
 
     return env->NewStringUTF(result.c_str());
 }

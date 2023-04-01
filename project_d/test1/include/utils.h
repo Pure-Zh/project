@@ -50,5 +50,5 @@ string round_0(double num);//将double数据四舍五入并且返回16进制字�
 //w_code
 Point2d calculate_XYZ(double u, double v);
 vector<Vec3f> circle_help(Mat img);
-vector<MyData> circle_detector(string path_left, string path_right);
+vector<MyData> circle_detector(string path_left, string path_right, string tool_path);
 

@@ -287,4 +287,5 @@ CMakeFiles/imageanalyze.dir/cpp/utils.cc.o: \
   /home/zjl/project/project_d/test1/include/db_post_process.h \
   /home/zjl/project/project_d/test1/include/clipper.hpp \
   /home/zjl/project/project_d/test1/AutoLog/auto_log/lite_autolog.h \
-  /home/zjl/opt/android_ndk/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/numeric
+  /home/zjl/opt/android_ndk/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/numeric \
+  /home/zjl/opt/android_ndk/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/android/log.h

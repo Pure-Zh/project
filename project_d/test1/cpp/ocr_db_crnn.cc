@@ -377,16 +377,16 @@ std::map<std::string, double> LoadConfigTxt(std::string config_path) {
 
 ///sdcard/123/utils
 ///sdcard/123/utils/det_slim_opt.nb
-std::vector<std::pair<std::string, double>> system(const cv::Mat &img1, const cv::Mat &img2) {
-  std::string det_model_file = "/data/local/tmp/debug_v7/utils/det_slim_opt.nb";
-  std::string rec_model_file = "/data/local/tmp/debug_v7/utils/rec_slim_opt.nb";
+std::vector<std::pair<std::string, double>> system(const cv::Mat &img1, const cv::Mat &img2,const string tool) {
+  std::string det_model_file = tool + "/utils/det_slim_opt.nb";
+  std::string rec_model_file = tool + "/utils/rec_slim_opt.nb";
   std::string cls_model_file = "";
   std::string runtime_device = "arm8";
   std::string precision = "INT8";
   std::string num_threads = "10";
   std::string batchsize = "1";
-  std::string det_config_path = "/data/local/tmp/debug_v7/utils/config.txt";
-  std::string dict_path = "/data/local/tmp/debug_v7/utils/en_dict.txt";
+  std::string det_config_path = tool + "/utils/config.txt";
+  std::string dict_path = tool + "/utils/en_dict.txt";
 
   std::vector<cv::Mat> cv_all_imgs{img1, img2};
 
@@ -470,7 +470,7 @@ std::vector<std::pair<std::string, double>> system(const cv::Mat &img1, const cv
 }
 
 
-std::string cap2str(cv::Mat cap) {
+std::string cap2str(cv::Mat cap, const string tool_path) {
   // check_params(argc, argv);
   // std::string title_path("./utils/11.jpg");
   // cv::Mat title = cv::imread(title_path);
@@ -482,7 +482,7 @@ std::string cap2str(cv::Mat cap) {
   cv::cvtColor(img1, img1, cv::COLOR_GRAY2BGR);
   cv::cvtColor(img2, img2, cv::COLOR_GRAY2BGR); 
 
-  std::vector<std::pair<std::string, double>> outputs = system(img1, img2);
+  std::vector<std::pair<std::string, double>> outputs = system(img1, img2, tool_path);
   std::string ret = outputs[0].second > outputs[1].second ? outputs[0].first : outputs[1].first;
   if (ret.size() > 8) {
     cout << "Oops! The num of output string is over 8!" << endl;
