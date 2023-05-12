@@ -1,0 +1,2 @@
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-ar qc libtarget_wrapper_host.a  CMakeFiles/target_wrapper_host.dir/target_wrapper.cc.o
+/opt/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-ranlib libtarget_wrapper_host.a

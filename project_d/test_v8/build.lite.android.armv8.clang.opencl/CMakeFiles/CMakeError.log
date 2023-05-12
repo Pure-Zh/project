@@ -1,0 +1,615 @@
+Performing C++ SOURCE FILE Test FMA_FOUND failed with the following output:
+Change Dir: /Paddle-Lite/build.lite.android.armv8.clang.opencl/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_55091/fast"
+/usr/bin/make -f CMakeFiles/cmTC_55091.dir/build.make CMakeFiles/cmTC_55091.dir/build
+make[1]: Entering directory '/Paddle-Lite/build.lite.android.armv8.clang.opencl/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_55091.dir/src.cxx.o
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=aarch64-none-linux-android --gcc-toolchain=/opt/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64 --sysroot=/opt/android-ndk-r17c/sysroot   -isystem /opt/android-ndk-r17c/sources/cxx-stl/llvm-libc++/include -isystem /opt/android-ndk-r17c/sources/android/support/include -isystem /opt/android-ndk-r17c/sources/cxx-stl/llvm-libc++abi/include  -isystem /opt/android-ndk-r17c/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -DFMA_FOUND -mfma -fPIE   -o CMakeFiles/cmTC_55091.dir/src.cxx.o -c /Paddle-Lite/build.lite.android.armv8.clang.opencl/CMakeFiles/CMakeTmp/src.cxx
+clang++: warning: argument unused during compilation: '-mfma' [-Wunused-command-line-argument]
+In file included from /Paddle-Lite/build.lite.android.armv8.clang.opencl/CMakeFiles/CMakeTmp/src.cxx:2:
+In file included from /opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/immintrin.h:28:
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:47:5: error: use of undeclared identifier '__builtin_ia32_emms'; did you mean '__builtin_isless'?
+    __builtin_ia32_emms();
+    ^
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:47:5: note: '__builtin_isless' declared here
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:47:25: error: too few arguments to function call, expected 2, have 0
+    __builtin_ia32_emms();
+                        ^
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:64:19: error: use of undeclared identifier '__builtin_ia32_vec_init_v2si'
+    return (__m64)__builtin_ia32_vec_init_v2si(__i, 0);
+                  ^
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:81:12: error: use of undeclared identifier '__builtin_ia32_vec_ext_v2si'
+    return __builtin_ia32_vec_ext_v2si((__v2si)__m, 0);
+           ^
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:143:19: error: use of undeclared identifier '__builtin_ia32_packsswb'
+    return (__m64)__builtin_ia32_packsswb((__v4hi)__m1, (__v4hi)__m2);
+                  ^
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:173:19: error: use of undeclared identifier '__builtin_ia32_packssdw'
+    return (__m64)__builtin_ia32_packssdw((__v2si)__m1, (__v2si)__m2);
+                  ^
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:203:19: error: use of undeclared identifier '__builtin_ia32_packuswb'
+    return (__m64)__builtin_ia32_packuswb((__v4hi)__m1, (__v4hi)__m2);
+                  ^
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:230:19: error: use of undeclared identifier '__builtin_ia32_punpckhbw'
+    return (__m64)__builtin_ia32_punpckhbw((__v8qi)__m1, (__v8qi)__m2);
+                  ^
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:253:19: error: use of undeclared identifier '__builtin_ia32_punpckhwd'
+    return (__m64)__builtin_ia32_punpckhwd((__v4hi)__m1, (__v4hi)__m2);
+                  ^
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:274:19: error: use of undeclared identifier '__builtin_ia32_punpckhdq'
+    return (__m64)__builtin_ia32_punpckhdq((__v2si)__m1, (__v2si)__m2);
+                  ^
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:301:19: error: use of undeclared identifier '__builtin_ia32_punpcklbw'
+    return (__m64)__builtin_ia32_punpcklbw((__v8qi)__m1, (__v8qi)__m2);
+                  ^
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:324:19: error: use of undeclared identifier '__builtin_ia32_punpcklwd'
+    return (__m64)__builtin_ia32_punpcklwd((__v4hi)__m1, (__v4hi)__m2);
+                  ^
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:345:19: error: use of undeclared identifier '__builtin_ia32_punpckldq'
+    return (__m64)__builtin_ia32_punpckldq((__v2si)__m1, (__v2si)__m2);
+                  ^
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:366:19: error: use of undeclared identifier '__builtin_ia32_paddb'
+    return (__m64)__builtin_ia32_paddb((__v8qi)__m1, (__v8qi)__m2);
+                  ^
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:387:19: error: use of undeclared identifier '__builtin_ia32_paddw'
+    return (__m64)__builtin_ia32_paddw((__v4hi)__m1, (__v4hi)__m2);
+                  ^
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:408:19: error: use of undeclared identifier '__builtin_ia32_paddd'
+    return (__m64)__builtin_ia32_paddd((__v2si)__m1, (__v2si)__m2);
+                  ^
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:430:19: error: use of undeclared identifier '__builtin_ia32_paddsb'
+    return (__m64)__builtin_ia32_paddsb((__v8qi)__m1, (__v8qi)__m2);
+                  ^
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:453:19: error: use of undeclared identifier '__builtin_ia32_paddsw'
+    return (__m64)__builtin_ia32_paddsw((__v4hi)__m1, (__v4hi)__m2);
+                  ^
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:475:19: error: use of undeclared identifier '__builtin_ia32_paddusb'
+    return (__m64)__builtin_ia32_paddusb((__v8qi)__m1, (__v8qi)__m2);
+                  ^
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+20 errors generated.
+CMakeFiles/cmTC_55091.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_55091.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_55091.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/Paddle-Lite/build.lite.android.armv8.clang.opencl/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_55091/fast' failed
+make: *** [cmTC_55091/fast] Error 2
+
+Return value: 1
+Source file was:
+
+#include <immintrin.h>
+int main()
+{
+    __m256 _a = _mm256_set1_ps(1.f);
+    __m256 _b = _mm256_set1_ps(2.f);
+    __m256 _c = _mm256_set1_ps(3.f);
+    __m256 _res = _mm256_fmadd_ps(_a, _b, _c);
+    return 0;
+}
+Performing C++ SOURCE FILE Test MMX_FOUND failed with the following output:
+Change Dir: /Paddle-Lite/build.lite.android.armv8.clang.opencl/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cb937/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cb937.dir/build.make CMakeFiles/cmTC_cb937.dir/build
+make[1]: Entering directory '/Paddle-Lite/build.lite.android.armv8.clang.opencl/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_cb937.dir/src.cxx.o
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=aarch64-none-linux-android --gcc-toolchain=/opt/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64 --sysroot=/opt/android-ndk-r17c/sysroot   -isystem /opt/android-ndk-r17c/sources/cxx-stl/llvm-libc++/include -isystem /opt/android-ndk-r17c/sources/android/support/include -isystem /opt/android-ndk-r17c/sources/cxx-stl/llvm-libc++abi/include  -isystem /opt/android-ndk-r17c/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -DMMX_FOUND -mmmx -fPIE   -o CMakeFiles/cmTC_cb937.dir/src.cxx.o -c /Paddle-Lite/build.lite.android.armv8.clang.opencl/CMakeFiles/CMakeTmp/src.cxx
+clang++: warning: argument unused during compilation: '-mmmx' [-Wunused-command-line-argument]
+In file included from /Paddle-Lite/build.lite.android.armv8.clang.opencl/CMakeFiles/CMakeTmp/src.cxx:2:
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:47:5: error: use of undeclared identifier '__builtin_ia32_emms'; did you mean '__builtin_isless'?
+    __builtin_ia32_emms();
+    ^
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:47:5: note: '__builtin_isless' declared here
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:47:25: error: too few arguments to function call, expected 2, have 0
+    __builtin_ia32_emms();
+                        ^
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:64:19: error: use of undeclared identifier '__builtin_ia32_vec_init_v2si'
+    return (__m64)__builtin_ia32_vec_init_v2si(__i, 0);
+                  ^
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:81:12: error: use of undeclared identifier '__builtin_ia32_vec_ext_v2si'
+    return __builtin_ia32_vec_ext_v2si((__v2si)__m, 0);
+           ^
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:143:19: error: use of undeclared identifier '__builtin_ia32_packsswb'
+    return (__m64)__builtin_ia32_packsswb((__v4hi)__m1, (__v4hi)__m2);
+                  ^
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:173:19: error: use of undeclared identifier '__builtin_ia32_packssdw'
+    return (__m64)__builtin_ia32_packssdw((__v2si)__m1, (__v2si)__m2);
+                  ^
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:203:19: error: use of undeclared identifier '__builtin_ia32_packuswb'
+    return (__m64)__builtin_ia32_packuswb((__v4hi)__m1, (__v4hi)__m2);
+                  ^
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:230:19: error: use of undeclared identifier '__builtin_ia32_punpckhbw'
+    return (__m64)__builtin_ia32_punpckhbw((__v8qi)__m1, (__v8qi)__m2);
+                  ^
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:253:19: error: use of undeclared identifier '__builtin_ia32_punpckhwd'
+    return (__m64)__builtin_ia32_punpckhwd((__v4hi)__m1, (__v4hi)__m2);
+                  ^
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:274:19: error: use of undeclared identifier '__builtin_ia32_punpckhdq'
+    return (__m64)__builtin_ia32_punpckhdq((__v2si)__m1, (__v2si)__m2);
+                  ^
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:301:19: error: use of undeclared identifier '__builtin_ia32_punpcklbw'
+    return (__m64)__builtin_ia32_punpcklbw((__v8qi)__m1, (__v8qi)__m2);
+                  ^
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:324:19: error: use of undeclared identifier '__builtin_ia32_punpcklwd'
+    return (__m64)__builtin_ia32_punpcklwd((__v4hi)__m1, (__v4hi)__m2);
+                  ^
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:345:19: error: use of undeclared identifier '__builtin_ia32_punpckldq'
+    return (__m64)__builtin_ia32_punpckldq((__v2si)__m1, (__v2si)__m2);
+                  ^
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:366:19: error: use of undeclared identifier '__builtin_ia32_paddb'
+    return (__m64)__builtin_ia32_paddb((__v8qi)__m1, (__v8qi)__m2);
+                  ^
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:387:19: error: use of undeclared identifier '__builtin_ia32_paddw'
+    return (__m64)__builtin_ia32_paddw((__v4hi)__m1, (__v4hi)__m2);
+                  ^
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:408:19: error: use of undeclared identifier '__builtin_ia32_paddd'
+    return (__m64)__builtin_ia32_paddd((__v2si)__m1, (__v2si)__m2);
+                  ^
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:430:19: error: use of undeclared identifier '__builtin_ia32_paddsb'
+    return (__m64)__builtin_ia32_paddsb((__v8qi)__m1, (__v8qi)__m2);
+                  ^
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:453:19: error: use of undeclared identifier '__builtin_ia32_paddsw'
+    return (__m64)__builtin_ia32_paddsw((__v4hi)__m1, (__v4hi)__m2);
+                  ^
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:475:19: error: use of undeclared identifier '__builtin_ia32_paddusb'
+    return (__m64)__builtin_ia32_paddusb((__v8qi)__m1, (__v8qi)__m2);
+                  ^
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+20 errors generated.
+CMakeFiles/cmTC_cb937.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_cb937.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_cb937.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/Paddle-Lite/build.lite.android.armv8.clang.opencl/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_cb937/fast' failed
+make: *** [cmTC_cb937/fast] Error 2
+
+Return value: 1
+Source file was:
+
+#include <mmintrin.h>
+int main()
+{
+    _mm_setzero_si64();
+    return 0;
+}
+Performing C++ SOURCE FILE Test SSE2_FOUND failed with the following output:
+Change Dir: /Paddle-Lite/build.lite.android.armv8.clang.opencl/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_efd6f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_efd6f.dir/build.make CMakeFiles/cmTC_efd6f.dir/build
+make[1]: Entering directory '/Paddle-Lite/build.lite.android.armv8.clang.opencl/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_efd6f.dir/src.cxx.o
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=aarch64-none-linux-android --gcc-toolchain=/opt/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64 --sysroot=/opt/android-ndk-r17c/sysroot   -isystem /opt/android-ndk-r17c/sources/cxx-stl/llvm-libc++/include -isystem /opt/android-ndk-r17c/sources/android/support/include -isystem /opt/android-ndk-r17c/sources/cxx-stl/llvm-libc++abi/include  -isystem /opt/android-ndk-r17c/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -DSSE2_FOUND -msse2 -fPIE   -o CMakeFiles/cmTC_efd6f.dir/src.cxx.o -c /Paddle-Lite/build.lite.android.armv8.clang.opencl/CMakeFiles/CMakeTmp/src.cxx
+clang++: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+In file included from /Paddle-Lite/build.lite.android.armv8.clang.opencl/CMakeFiles/CMakeTmp/src.cxx:2:
+In file included from /opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/emmintrin.h:27:
+In file included from /opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/xmmintrin.h:27:
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:47:5: error: use of undeclared identifier '__builtin_ia32_emms'; did you mean '__builtin_isless'?
+    __builtin_ia32_emms();
+    ^
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:47:5: note: '__builtin_isless' declared here
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:47:25: error: too few arguments to function call, expected 2, have 0
+    __builtin_ia32_emms();
+                        ^
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:64:19: error: use of undeclared identifier '__builtin_ia32_vec_init_v2si'
+    return (__m64)__builtin_ia32_vec_init_v2si(__i, 0);
+                  ^
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:81:12: error: use of undeclared identifier '__builtin_ia32_vec_ext_v2si'
+    return __builtin_ia32_vec_ext_v2si((__v2si)__m, 0);
+           ^
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:143:19: error: use of undeclared identifier '__builtin_ia32_packsswb'
+    return (__m64)__builtin_ia32_packsswb((__v4hi)__m1, (__v4hi)__m2);
+                  ^
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:173:19: error: use of undeclared identifier '__builtin_ia32_packssdw'
+    return (__m64)__builtin_ia32_packssdw((__v2si)__m1, (__v2si)__m2);
+                  ^
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:203:19: error: use of undeclared identifier '__builtin_ia32_packuswb'
+    return (__m64)__builtin_ia32_packuswb((__v4hi)__m1, (__v4hi)__m2);
+                  ^
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:230:19: error: use of undeclared identifier '__builtin_ia32_punpckhbw'
+    return (__m64)__builtin_ia32_punpckhbw((__v8qi)__m1, (__v8qi)__m2);
+                  ^
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:253:19: error: use of undeclared identifier '__builtin_ia32_punpckhwd'
+    return (__m64)__builtin_ia32_punpckhwd((__v4hi)__m1, (__v4hi)__m2);
+                  ^
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:274:19: error: use of undeclared identifier '__builtin_ia32_punpckhdq'
+    return (__m64)__builtin_ia32_punpckhdq((__v2si)__m1, (__v2si)__m2);
+                  ^
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:301:19: error: use of undeclared identifier '__builtin_ia32_punpcklbw'
+    return (__m64)__builtin_ia32_punpcklbw((__v8qi)__m1, (__v8qi)__m2);
+                  ^
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:324:19: error: use of undeclared identifier '__builtin_ia32_punpcklwd'
+    return (__m64)__builtin_ia32_punpcklwd((__v4hi)__m1, (__v4hi)__m2);
+                  ^
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:345:19: error: use of undeclared identifier '__builtin_ia32_punpckldq'
+    return (__m64)__builtin_ia32_punpckldq((__v2si)__m1, (__v2si)__m2);
+                  ^
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:366:19: error: use of undeclared identifier '__builtin_ia32_paddb'
+    return (__m64)__builtin_ia32_paddb((__v8qi)__m1, (__v8qi)__m2);
+                  ^
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:387:19: error: use of undeclared identifier '__builtin_ia32_paddw'
+    return (__m64)__builtin_ia32_paddw((__v4hi)__m1, (__v4hi)__m2);
+                  ^
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:408:19: error: use of undeclared identifier '__builtin_ia32_paddd'
+    return (__m64)__builtin_ia32_paddd((__v2si)__m1, (__v2si)__m2);
+                  ^
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:430:19: error: use of undeclared identifier '__builtin_ia32_paddsb'
+    return (__m64)__builtin_ia32_paddsb((__v8qi)__m1, (__v8qi)__m2);
+                  ^
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:453:19: error: use of undeclared identifier '__builtin_ia32_paddsw'
+    return (__m64)__builtin_ia32_paddsw((__v4hi)__m1, (__v4hi)__m2);
+                  ^
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:475:19: error: use of undeclared identifier '__builtin_ia32_paddusb'
+    return (__m64)__builtin_ia32_paddusb((__v8qi)__m1, (__v8qi)__m2);
+                  ^
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+20 errors generated.
+CMakeFiles/cmTC_efd6f.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_efd6f.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_efd6f.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/Paddle-Lite/build.lite.android.armv8.clang.opencl/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_efd6f/fast' failed
+make: *** [cmTC_efd6f/fast] Error 2
+
+Return value: 1
+Source file was:
+
+#include <emmintrin.h>
+int main()
+{
+    _mm_setzero_si128();
+    return 0;
+}
+Performing C++ SOURCE FILE Test SSE3_FOUND failed with the following output:
+Change Dir: /Paddle-Lite/build.lite.android.armv8.clang.opencl/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_db614/fast"
+/usr/bin/make -f CMakeFiles/cmTC_db614.dir/build.make CMakeFiles/cmTC_db614.dir/build
+make[1]: Entering directory '/Paddle-Lite/build.lite.android.armv8.clang.opencl/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_db614.dir/src.cxx.o
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=aarch64-none-linux-android --gcc-toolchain=/opt/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64 --sysroot=/opt/android-ndk-r17c/sysroot   -isystem /opt/android-ndk-r17c/sources/cxx-stl/llvm-libc++/include -isystem /opt/android-ndk-r17c/sources/android/support/include -isystem /opt/android-ndk-r17c/sources/cxx-stl/llvm-libc++abi/include  -isystem /opt/android-ndk-r17c/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -DSSE3_FOUND -msse3 -fPIE   -o CMakeFiles/cmTC_db614.dir/src.cxx.o -c /Paddle-Lite/build.lite.android.armv8.clang.opencl/CMakeFiles/CMakeTmp/src.cxx
+clang++: warning: argument unused during compilation: '-msse3' [-Wunused-command-line-argument]
+In file included from /Paddle-Lite/build.lite.android.armv8.clang.opencl/CMakeFiles/CMakeTmp/src.cxx:2:
+In file included from /opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/pmmintrin.h:27:
+In file included from /opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/emmintrin.h:27:
+In file included from /opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/xmmintrin.h:27:
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:47:5: error: use of undeclared identifier '__builtin_ia32_emms'; did you mean '__builtin_isless'?
+    __builtin_ia32_emms();
+    ^
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:47:5: note: '__builtin_isless' declared here
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:47:25: error: too few arguments to function call, expected 2, have 0
+    __builtin_ia32_emms();
+                        ^
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:64:19: error: use of undeclared identifier '__builtin_ia32_vec_init_v2si'
+    return (__m64)__builtin_ia32_vec_init_v2si(__i, 0);
+                  ^
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:81:12: error: use of undeclared identifier '__builtin_ia32_vec_ext_v2si'
+    return __builtin_ia32_vec_ext_v2si((__v2si)__m, 0);
+           ^
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:143:19: error: use of undeclared identifier '__builtin_ia32_packsswb'
+    return (__m64)__builtin_ia32_packsswb((__v4hi)__m1, (__v4hi)__m2);
+                  ^
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:173:19: error: use of undeclared identifier '__builtin_ia32_packssdw'
+    return (__m64)__builtin_ia32_packssdw((__v2si)__m1, (__v2si)__m2);
+                  ^
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:203:19: error: use of undeclared identifier '__builtin_ia32_packuswb'
+    return (__m64)__builtin_ia32_packuswb((__v4hi)__m1, (__v4hi)__m2);
+                  ^
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:230:19: error: use of undeclared identifier '__builtin_ia32_punpckhbw'
+    return (__m64)__builtin_ia32_punpckhbw((__v8qi)__m1, (__v8qi)__m2);
+                  ^
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:253:19: error: use of undeclared identifier '__builtin_ia32_punpckhwd'
+    return (__m64)__builtin_ia32_punpckhwd((__v4hi)__m1, (__v4hi)__m2);
+                  ^
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:274:19: error: use of undeclared identifier '__builtin_ia32_punpckhdq'
+    return (__m64)__builtin_ia32_punpckhdq((__v2si)__m1, (__v2si)__m2);
+                  ^
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:301:19: error: use of undeclared identifier '__builtin_ia32_punpcklbw'
+    return (__m64)__builtin_ia32_punpcklbw((__v8qi)__m1, (__v8qi)__m2);
+                  ^
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:324:19: error: use of undeclared identifier '__builtin_ia32_punpcklwd'
+    return (__m64)__builtin_ia32_punpcklwd((__v4hi)__m1, (__v4hi)__m2);
+                  ^
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:345:19: error: use of undeclared identifier '__builtin_ia32_punpckldq'
+    return (__m64)__builtin_ia32_punpckldq((__v2si)__m1, (__v2si)__m2);
+                  ^
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:366:19: error: use of undeclared identifier '__builtin_ia32_paddb'
+    return (__m64)__builtin_ia32_paddb((__v8qi)__m1, (__v8qi)__m2);
+                  ^
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:387:19: error: use of undeclared identifier '__builtin_ia32_paddw'
+    return (__m64)__builtin_ia32_paddw((__v4hi)__m1, (__v4hi)__m2);
+                  ^
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:408:19: error: use of undeclared identifier '__builtin_ia32_paddd'
+    return (__m64)__builtin_ia32_paddd((__v2si)__m1, (__v2si)__m2);
+                  ^
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:430:19: error: use of undeclared identifier '__builtin_ia32_paddsb'
+    return (__m64)__builtin_ia32_paddsb((__v8qi)__m1, (__v8qi)__m2);
+                  ^
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:453:19: error: use of undeclared identifier '__builtin_ia32_paddsw'
+    return (__m64)__builtin_ia32_paddsw((__v4hi)__m1, (__v4hi)__m2);
+                  ^
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:475:19: error: use of undeclared identifier '__builtin_ia32_paddusb'
+    return (__m64)__builtin_ia32_paddusb((__v8qi)__m1, (__v8qi)__m2);
+                  ^
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+20 errors generated.
+CMakeFiles/cmTC_db614.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_db614.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_db614.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/Paddle-Lite/build.lite.android.armv8.clang.opencl/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_db614/fast' failed
+make: *** [cmTC_db614/fast] Error 2
+
+Return value: 1
+Source file was:
+
+#include <pmmintrin.h>
+int main()
+{
+    __m128d a = _mm_set1_pd(6.28);
+    __m128d b = _mm_set1_pd(3.14);
+    __m128d result = _mm_addsub_pd(a, b);
+    result = _mm_movedup_pd(result);
+    return 0;
+}
+Performing C++ SOURCE FILE Test AVX_FOUND failed with the following output:
+Change Dir: /Paddle-Lite/build.lite.android.armv8.clang.opencl/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c1272/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c1272.dir/build.make CMakeFiles/cmTC_c1272.dir/build
+make[1]: Entering directory '/Paddle-Lite/build.lite.android.armv8.clang.opencl/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c1272.dir/src.cxx.o
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=aarch64-none-linux-android --gcc-toolchain=/opt/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64 --sysroot=/opt/android-ndk-r17c/sysroot   -isystem /opt/android-ndk-r17c/sources/cxx-stl/llvm-libc++/include -isystem /opt/android-ndk-r17c/sources/android/support/include -isystem /opt/android-ndk-r17c/sources/cxx-stl/llvm-libc++abi/include  -isystem /opt/android-ndk-r17c/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -DAVX_FOUND -mavx -fPIE   -o CMakeFiles/cmTC_c1272.dir/src.cxx.o -c /Paddle-Lite/build.lite.android.armv8.clang.opencl/CMakeFiles/CMakeTmp/src.cxx
+clang++: warning: argument unused during compilation: '-mavx' [-Wunused-command-line-argument]
+In file included from /Paddle-Lite/build.lite.android.armv8.clang.opencl/CMakeFiles/CMakeTmp/src.cxx:2:
+In file included from /opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/immintrin.h:28:
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:47:5: error: use of undeclared identifier '__builtin_ia32_emms'; did you mean '__builtin_isless'?
+    __builtin_ia32_emms();
+    ^
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:47:5: note: '__builtin_isless' declared here
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:47:25: error: too few arguments to function call, expected 2, have 0
+    __builtin_ia32_emms();
+                        ^
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:64:19: error: use of undeclared identifier '__builtin_ia32_vec_init_v2si'
+    return (__m64)__builtin_ia32_vec_init_v2si(__i, 0);
+                  ^
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:81:12: error: use of undeclared identifier '__builtin_ia32_vec_ext_v2si'
+    return __builtin_ia32_vec_ext_v2si((__v2si)__m, 0);
+           ^
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:143:19: error: use of undeclared identifier '__builtin_ia32_packsswb'
+    return (__m64)__builtin_ia32_packsswb((__v4hi)__m1, (__v4hi)__m2);
+                  ^
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:173:19: error: use of undeclared identifier '__builtin_ia32_packssdw'
+    return (__m64)__builtin_ia32_packssdw((__v2si)__m1, (__v2si)__m2);
+                  ^
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:203:19: error: use of undeclared identifier '__builtin_ia32_packuswb'
+    return (__m64)__builtin_ia32_packuswb((__v4hi)__m1, (__v4hi)__m2);
+                  ^
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:230:19: error: use of undeclared identifier '__builtin_ia32_punpckhbw'
+    return (__m64)__builtin_ia32_punpckhbw((__v8qi)__m1, (__v8qi)__m2);
+                  ^
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:253:19: error: use of undeclared identifier '__builtin_ia32_punpckhwd'
+    return (__m64)__builtin_ia32_punpckhwd((__v4hi)__m1, (__v4hi)__m2);
+                  ^
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:274:19: error: use of undeclared identifier '__builtin_ia32_punpckhdq'
+    return (__m64)__builtin_ia32_punpckhdq((__v2si)__m1, (__v2si)__m2);
+                  ^
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:301:19: error: use of undeclared identifier '__builtin_ia32_punpcklbw'
+    return (__m64)__builtin_ia32_punpcklbw((__v8qi)__m1, (__v8qi)__m2);
+                  ^
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:324:19: error: use of undeclared identifier '__builtin_ia32_punpcklwd'
+    return (__m64)__builtin_ia32_punpcklwd((__v4hi)__m1, (__v4hi)__m2);
+                  ^
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:345:19: error: use of undeclared identifier '__builtin_ia32_punpckldq'
+    return (__m64)__builtin_ia32_punpckldq((__v2si)__m1, (__v2si)__m2);
+                  ^
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:366:19: error: use of undeclared identifier '__builtin_ia32_paddb'
+    return (__m64)__builtin_ia32_paddb((__v8qi)__m1, (__v8qi)__m2);
+                  ^
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:387:19: error: use of undeclared identifier '__builtin_ia32_paddw'
+    return (__m64)__builtin_ia32_paddw((__v4hi)__m1, (__v4hi)__m2);
+                  ^
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:408:19: error: use of undeclared identifier '__builtin_ia32_paddd'
+    return (__m64)__builtin_ia32_paddd((__v2si)__m1, (__v2si)__m2);
+                  ^
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:430:19: error: use of undeclared identifier '__builtin_ia32_paddsb'
+    return (__m64)__builtin_ia32_paddsb((__v8qi)__m1, (__v8qi)__m2);
+                  ^
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:453:19: error: use of undeclared identifier '__builtin_ia32_paddsw'
+    return (__m64)__builtin_ia32_paddsw((__v4hi)__m1, (__v4hi)__m2);
+                  ^
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:475:19: error: use of undeclared identifier '__builtin_ia32_paddusb'
+    return (__m64)__builtin_ia32_paddusb((__v8qi)__m1, (__v8qi)__m2);
+                  ^
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+20 errors generated.
+CMakeFiles/cmTC_c1272.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_c1272.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_c1272.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/Paddle-Lite/build.lite.android.armv8.clang.opencl/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_c1272/fast' failed
+make: *** [cmTC_c1272/fast] Error 2
+
+Return value: 1
+Source file was:
+
+#include <immintrin.h>
+int main()
+{
+    __m256 a = _mm256_set_ps (-1.0f, 2.0f, -3.0f, 4.0f, -1.0f, 2.0f, -3.0f, 4.0f);
+    __m256 b = _mm256_set_ps (1.0f, 2.0f, 3.0f, 4.0f, 1.0f, 2.0f, 3.0f, 4.0f);
+    __m256 result = _mm256_add_ps (a, b);
+    return 0;
+}
+Performing C++ SOURCE FILE Test AVX2_FOUND failed with the following output:
+Change Dir: /Paddle-Lite/build.lite.android.armv8.clang.opencl/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_817de/fast"
+/usr/bin/make -f CMakeFiles/cmTC_817de.dir/build.make CMakeFiles/cmTC_817de.dir/build
+make[1]: Entering directory '/Paddle-Lite/build.lite.android.armv8.clang.opencl/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_817de.dir/src.cxx.o
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=aarch64-none-linux-android --gcc-toolchain=/opt/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64 --sysroot=/opt/android-ndk-r17c/sysroot   -isystem /opt/android-ndk-r17c/sources/cxx-stl/llvm-libc++/include -isystem /opt/android-ndk-r17c/sources/android/support/include -isystem /opt/android-ndk-r17c/sources/cxx-stl/llvm-libc++abi/include  -isystem /opt/android-ndk-r17c/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -DAVX2_FOUND -mavx2 -fPIE   -o CMakeFiles/cmTC_817de.dir/src.cxx.o -c /Paddle-Lite/build.lite.android.armv8.clang.opencl/CMakeFiles/CMakeTmp/src.cxx
+clang++: warning: argument unused during compilation: '-mavx2' [-Wunused-command-line-argument]
+In file included from /Paddle-Lite/build.lite.android.armv8.clang.opencl/CMakeFiles/CMakeTmp/src.cxx:2:
+In file included from /opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/immintrin.h:28:
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:47:5: error: use of undeclared identifier '__builtin_ia32_emms'; did you mean '__builtin_isless'?
+    __builtin_ia32_emms();
+    ^
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:47:5: note: '__builtin_isless' declared here
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:47:25: error: too few arguments to function call, expected 2, have 0
+    __builtin_ia32_emms();
+                        ^
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:64:19: error: use of undeclared identifier '__builtin_ia32_vec_init_v2si'
+    return (__m64)__builtin_ia32_vec_init_v2si(__i, 0);
+                  ^
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:81:12: error: use of undeclared identifier '__builtin_ia32_vec_ext_v2si'
+    return __builtin_ia32_vec_ext_v2si((__v2si)__m, 0);
+           ^
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:143:19: error: use of undeclared identifier '__builtin_ia32_packsswb'
+    return (__m64)__builtin_ia32_packsswb((__v4hi)__m1, (__v4hi)__m2);
+                  ^
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:173:19: error: use of undeclared identifier '__builtin_ia32_packssdw'
+    return (__m64)__builtin_ia32_packssdw((__v2si)__m1, (__v2si)__m2);
+                  ^
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:203:19: error: use of undeclared identifier '__builtin_ia32_packuswb'
+    return (__m64)__builtin_ia32_packuswb((__v4hi)__m1, (__v4hi)__m2);
+                  ^
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:230:19: error: use of undeclared identifier '__builtin_ia32_punpckhbw'
+    return (__m64)__builtin_ia32_punpckhbw((__v8qi)__m1, (__v8qi)__m2);
+                  ^
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:253:19: error: use of undeclared identifier '__builtin_ia32_punpckhwd'
+    return (__m64)__builtin_ia32_punpckhwd((__v4hi)__m1, (__v4hi)__m2);
+                  ^
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:274:19: error: use of undeclared identifier '__builtin_ia32_punpckhdq'
+    return (__m64)__builtin_ia32_punpckhdq((__v2si)__m1, (__v2si)__m2);
+                  ^
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:301:19: error: use of undeclared identifier '__builtin_ia32_punpcklbw'
+    return (__m64)__builtin_ia32_punpcklbw((__v8qi)__m1, (__v8qi)__m2);
+                  ^
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:324:19: error: use of undeclared identifier '__builtin_ia32_punpcklwd'
+    return (__m64)__builtin_ia32_punpcklwd((__v4hi)__m1, (__v4hi)__m2);
+                  ^
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:345:19: error: use of undeclared identifier '__builtin_ia32_punpckldq'
+    return (__m64)__builtin_ia32_punpckldq((__v2si)__m1, (__v2si)__m2);
+                  ^
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:366:19: error: use of undeclared identifier '__builtin_ia32_paddb'
+    return (__m64)__builtin_ia32_paddb((__v8qi)__m1, (__v8qi)__m2);
+                  ^
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:387:19: error: use of undeclared identifier '__builtin_ia32_paddw'
+    return (__m64)__builtin_ia32_paddw((__v4hi)__m1, (__v4hi)__m2);
+                  ^
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:408:19: error: use of undeclared identifier '__builtin_ia32_paddd'
+    return (__m64)__builtin_ia32_paddd((__v2si)__m1, (__v2si)__m2);
+                  ^
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:430:19: error: use of undeclared identifier '__builtin_ia32_paddsb'
+    return (__m64)__builtin_ia32_paddsb((__v8qi)__m1, (__v8qi)__m2);
+                  ^
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:453:19: error: use of undeclared identifier '__builtin_ia32_paddsw'
+    return (__m64)__builtin_ia32_paddsw((__v4hi)__m1, (__v4hi)__m2);
+                  ^
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:475:19: error: use of undeclared identifier '__builtin_ia32_paddusb'
+    return (__m64)__builtin_ia32_paddusb((__v8qi)__m1, (__v8qi)__m2);
+                  ^
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+20 errors generated.
+CMakeFiles/cmTC_817de.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_817de.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_817de.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/Paddle-Lite/build.lite.android.armv8.clang.opencl/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_817de/fast' failed
+make: *** [cmTC_817de/fast] Error 2
+
+Return value: 1
+Source file was:
+
+#include <immintrin.h>
+int main()
+{
+    __m256i a = _mm256_set_epi32 (-1, 2, -3, 4, -1, 2, -3, 4);
+    __m256i result = _mm256_abs_epi32 (a);
+    return 0;
+}
+Performing C++ SOURCE FILE Test AVX512F_FOUND failed with the following output:
+Change Dir: /Paddle-Lite/build.lite.android.armv8.clang.opencl/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_83cb4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_83cb4.dir/build.make CMakeFiles/cmTC_83cb4.dir/build
+make[1]: Entering directory '/Paddle-Lite/build.lite.android.armv8.clang.opencl/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_83cb4.dir/src.cxx.o
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=aarch64-none-linux-android --gcc-toolchain=/opt/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64 --sysroot=/opt/android-ndk-r17c/sysroot   -isystem /opt/android-ndk-r17c/sources/cxx-stl/llvm-libc++/include -isystem /opt/android-ndk-r17c/sources/android/support/include -isystem /opt/android-ndk-r17c/sources/cxx-stl/llvm-libc++abi/include  -isystem /opt/android-ndk-r17c/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -DAVX512F_FOUND -mavx512f -fPIE   -o CMakeFiles/cmTC_83cb4.dir/src.cxx.o -c /Paddle-Lite/build.lite.android.armv8.clang.opencl/CMakeFiles/CMakeTmp/src.cxx
+clang++: warning: argument unused during compilation: '-mavx512f' [-Wunused-command-line-argument]
+In file included from /Paddle-Lite/build.lite.android.armv8.clang.opencl/CMakeFiles/CMakeTmp/src.cxx:2:
+In file included from /opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/immintrin.h:28:
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:47:5: error: use of undeclared identifier '__builtin_ia32_emms'; did you mean '__builtin_isless'?
+    __builtin_ia32_emms();
+    ^
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:47:5: note: '__builtin_isless' declared here
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:47:25: error: too few arguments to function call, expected 2, have 0
+    __builtin_ia32_emms();
+                        ^
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:64:19: error: use of undeclared identifier '__builtin_ia32_vec_init_v2si'
+    return (__m64)__builtin_ia32_vec_init_v2si(__i, 0);
+                  ^
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:81:12: error: use of undeclared identifier '__builtin_ia32_vec_ext_v2si'
+    return __builtin_ia32_vec_ext_v2si((__v2si)__m, 0);
+           ^
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:143:19: error: use of undeclared identifier '__builtin_ia32_packsswb'
+    return (__m64)__builtin_ia32_packsswb((__v4hi)__m1, (__v4hi)__m2);
+                  ^
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:173:19: error: use of undeclared identifier '__builtin_ia32_packssdw'
+    return (__m64)__builtin_ia32_packssdw((__v2si)__m1, (__v2si)__m2);
+                  ^
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:203:19: error: use of undeclared identifier '__builtin_ia32_packuswb'
+    return (__m64)__builtin_ia32_packuswb((__v4hi)__m1, (__v4hi)__m2);
+                  ^
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:230:19: error: use of undeclared identifier '__builtin_ia32_punpckhbw'
+    return (__m64)__builtin_ia32_punpckhbw((__v8qi)__m1, (__v8qi)__m2);
+                  ^
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:253:19: error: use of undeclared identifier '__builtin_ia32_punpckhwd'
+    return (__m64)__builtin_ia32_punpckhwd((__v4hi)__m1, (__v4hi)__m2);
+                  ^
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:274:19: error: use of undeclared identifier '__builtin_ia32_punpckhdq'
+    return (__m64)__builtin_ia32_punpckhdq((__v2si)__m1, (__v2si)__m2);
+                  ^
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:301:19: error: use of undeclared identifier '__builtin_ia32_punpcklbw'
+    return (__m64)__builtin_ia32_punpcklbw((__v8qi)__m1, (__v8qi)__m2);
+                  ^
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:324:19: error: use of undeclared identifier '__builtin_ia32_punpcklwd'
+    return (__m64)__builtin_ia32_punpcklwd((__v4hi)__m1, (__v4hi)__m2);
+                  ^
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:345:19: error: use of undeclared identifier '__builtin_ia32_punpckldq'
+    return (__m64)__builtin_ia32_punpckldq((__v2si)__m1, (__v2si)__m2);
+                  ^
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:366:19: error: use of undeclared identifier '__builtin_ia32_paddb'
+    return (__m64)__builtin_ia32_paddb((__v8qi)__m1, (__v8qi)__m2);
+                  ^
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:387:19: error: use of undeclared identifier '__builtin_ia32_paddw'
+    return (__m64)__builtin_ia32_paddw((__v4hi)__m1, (__v4hi)__m2);
+                  ^
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:408:19: error: use of undeclared identifier '__builtin_ia32_paddd'
+    return (__m64)__builtin_ia32_paddd((__v2si)__m1, (__v2si)__m2);
+                  ^
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:430:19: error: use of undeclared identifier '__builtin_ia32_paddsb'
+    return (__m64)__builtin_ia32_paddsb((__v8qi)__m1, (__v8qi)__m2);
+                  ^
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:453:19: error: use of undeclared identifier '__builtin_ia32_paddsw'
+    return (__m64)__builtin_ia32_paddsw((__v4hi)__m1, (__v4hi)__m2);
+                  ^
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/6.0.2/include/mmintrin.h:475:19: error: use of undeclared identifier '__builtin_ia32_paddusb'
+    return (__m64)__builtin_ia32_paddusb((__v8qi)__m1, (__v8qi)__m2);
+                  ^
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+20 errors generated.
+CMakeFiles/cmTC_83cb4.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_83cb4.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_83cb4.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/Paddle-Lite/build.lite.android.armv8.clang.opencl/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_83cb4/fast' failed
+make: *** [cmTC_83cb4/fast] Error 2
+
+Return value: 1
+Source file was:
+
+#include <immintrin.h>
+int main()
+{
+    __m512i a = _mm512_set_epi32 (-1, 2, -3, 4, -1, 2, -3, 4,
+                                  13, -5, 6, -7, 9, 2, -6, 3);
+    __m512i result = _mm512_abs_epi32 (a);
+    return 0;
+}

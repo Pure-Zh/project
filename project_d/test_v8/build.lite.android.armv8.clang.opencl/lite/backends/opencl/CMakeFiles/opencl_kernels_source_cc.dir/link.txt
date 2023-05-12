@@ -1,0 +1,2 @@
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-ar qc libopencl_kernels_source_cc.a  CMakeFiles/opencl_kernels_source_cc.dir/opencl_kernels_source.cc.o
+/opt/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-ranlib libopencl_kernels_source_cc.a

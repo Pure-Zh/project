@@ -1,0 +1,69 @@
+# The set of languages for which implicit dependencies are needed:
+set(CMAKE_DEPENDS_LANGUAGES
+  "CXX"
+  )
+# The set of files for implicit dependencies of each language:
+set(CMAKE_DEPENDS_CHECK_CXX
+  "/Paddle-Lite/lite/backends/host/math/argmax.cc" "/Paddle-Lite/build.lite.android.armv8.clang.opencl/lite/backends/host/math/CMakeFiles/math_host.dir/argmax.cc.o"
+  "/Paddle-Lite/lite/backends/host/math/beam_search.cc" "/Paddle-Lite/build.lite.android.armv8.clang.opencl/lite/backends/host/math/CMakeFiles/math_host.dir/beam_search.cc.o"
+  "/Paddle-Lite/lite/backends/host/math/concat.cc" "/Paddle-Lite/build.lite.android.armv8.clang.opencl/lite/backends/host/math/CMakeFiles/math_host.dir/concat.cc.o"
+  "/Paddle-Lite/lite/backends/host/math/gpc.cc" "/Paddle-Lite/build.lite.android.armv8.clang.opencl/lite/backends/host/math/CMakeFiles/math_host.dir/gpc.cc.o"
+  "/Paddle-Lite/lite/backends/host/math/inverse.cc" "/Paddle-Lite/build.lite.android.armv8.clang.opencl/lite/backends/host/math/CMakeFiles/math_host.dir/inverse.cc.o"
+  "/Paddle-Lite/lite/backends/host/math/norm.cc" "/Paddle-Lite/build.lite.android.armv8.clang.opencl/lite/backends/host/math/CMakeFiles/math_host.dir/norm.cc.o"
+  "/Paddle-Lite/lite/backends/host/math/pad3d.cc" "/Paddle-Lite/build.lite.android.armv8.clang.opencl/lite/backends/host/math/CMakeFiles/math_host.dir/pad3d.cc.o"
+  "/Paddle-Lite/lite/backends/host/math/prior_box.cc" "/Paddle-Lite/build.lite.android.armv8.clang.opencl/lite/backends/host/math/CMakeFiles/math_host.dir/prior_box.cc.o"
+  "/Paddle-Lite/lite/backends/host/math/reduce.cc" "/Paddle-Lite/build.lite.android.armv8.clang.opencl/lite/backends/host/math/CMakeFiles/math_host.dir/reduce.cc.o"
+  "/Paddle-Lite/lite/backends/host/math/reverse.cc" "/Paddle-Lite/build.lite.android.armv8.clang.opencl/lite/backends/host/math/CMakeFiles/math_host.dir/reverse.cc.o"
+  "/Paddle-Lite/lite/backends/host/math/sequence_padding.cc" "/Paddle-Lite/build.lite.android.armv8.clang.opencl/lite/backends/host/math/CMakeFiles/math_host.dir/sequence_padding.cc.o"
+  "/Paddle-Lite/lite/backends/host/math/slice.cc" "/Paddle-Lite/build.lite.android.armv8.clang.opencl/lite/backends/host/math/CMakeFiles/math_host.dir/slice.cc.o"
+  "/Paddle-Lite/lite/backends/host/math/split.cc" "/Paddle-Lite/build.lite.android.armv8.clang.opencl/lite/backends/host/math/CMakeFiles/math_host.dir/split.cc.o"
+  "/Paddle-Lite/lite/backends/host/math/stack.cc" "/Paddle-Lite/build.lite.android.armv8.clang.opencl/lite/backends/host/math/CMakeFiles/math_host.dir/stack.cc.o"
+  "/Paddle-Lite/lite/backends/host/math/topk.cc" "/Paddle-Lite/build.lite.android.armv8.clang.opencl/lite/backends/host/math/CMakeFiles/math_host.dir/topk.cc.o"
+  )
+set(CMAKE_CXX_COMPILER_ID "Clang")
+
+# Preprocessor definitions for this target.
+set(CMAKE_TARGET_DEFINITIONS_CXX
+  "ARM_WITH_OMP"
+  "HPPL_STUB_FUNC"
+  "LITE_BUILD_EXTRA"
+  "LITE_ON_FLATBUFFERS_DESC_VIEW"
+  "LITE_ON_TINY_PUBLISH"
+  "LITE_WITH_ANDROID"
+  "LITE_WITH_ARM"
+  "LITE_WITH_CV"
+  "LITE_WITH_LIGHT_WEIGHT_FRAMEWORK"
+  "LITE_WITH_LINUX"
+  "LITE_WITH_LOG"
+  "LITE_WITH_OPENCL"
+  "PADDLE_DISABLE_PROFILER"
+  "PADDLE_NO_PYTHON"
+  "WITH_ARM_DOTPROD"
+  )
+
+# The include file search paths:
+set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "../"
+  "."
+  "../third-party/flatbuffers/pre-build"
+  "../third-party/opencl/include"
+  "/opt/android-ndk-r17c/sources/cxx-stl/llvm-libc++/include"
+  "/opt/android-ndk-r17c/sources/android/support/include"
+  "/opt/android-ndk-r17c/sources/cxx-stl/llvm-libc++abi/include"
+  )
+
+# Targets to which this target links.
+set(CMAKE_TARGET_LINKED_INFO_FILES
+  "/Paddle-Lite/build.lite.android.armv8.clang.opencl/lite/core/CMakeFiles/core.dir/DependInfo.cmake"
+  "/Paddle-Lite/build.lite.android.armv8.clang.opencl/lite/backends/host/CMakeFiles/target_wrapper_host.dir/DependInfo.cmake"
+  "/Paddle-Lite/build.lite.android.armv8.clang.opencl/lite/backends/opencl/CMakeFiles/cl_target_wrapper.dir/DependInfo.cmake"
+  "/Paddle-Lite/build.lite.android.armv8.clang.opencl/lite/backends/opencl/CMakeFiles/cl_context.dir/DependInfo.cmake"
+  "/Paddle-Lite/build.lite.android.armv8.clang.opencl/lite/backends/opencl/CMakeFiles/cl_runtime.dir/DependInfo.cmake"
+  "/Paddle-Lite/build.lite.android.armv8.clang.opencl/lite/backends/opencl/utils/CMakeFiles/cl_cache.dir/DependInfo.cmake"
+  "/Paddle-Lite/build.lite.android.armv8.clang.opencl/lite/backends/opencl/CMakeFiles/cl_utility.dir/DependInfo.cmake"
+  "/Paddle-Lite/build.lite.android.armv8.clang.opencl/lite/backends/opencl/CMakeFiles/cl_wrapper.dir/DependInfo.cmake"
+  "/Paddle-Lite/build.lite.android.armv8.clang.opencl/lite/backends/opencl/CMakeFiles/opencl_kernels_source_cc.dir/DependInfo.cmake"
+  )
+
+# Fortran module output directory.
+set(CMAKE_Fortran_TARGET_MODULE_DIR "")

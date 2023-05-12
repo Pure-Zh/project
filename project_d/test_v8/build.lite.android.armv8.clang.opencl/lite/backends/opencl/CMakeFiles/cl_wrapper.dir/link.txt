@@ -1,0 +1,2 @@
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-ar qc libcl_wrapper.a  CMakeFiles/cl_wrapper.dir/cl_wrapper.cc.o
+/opt/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-ranlib libcl_wrapper.a

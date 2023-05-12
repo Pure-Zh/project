@@ -1,0 +1,11 @@
+com/baidu/paddle/lite/ConfigBase.class
+com/baidu/paddle/lite/CxxConfig.class
+com/baidu/paddle/lite/MobileConfig.class
+com/baidu/paddle/lite/PaddleLiteInitializer.class
+com/baidu/paddle/lite/PaddlePredictor.class
+com/baidu/paddle/lite/Place$DataLayoutType.class
+com/baidu/paddle/lite/Place$PrecisionType.class
+com/baidu/paddle/lite/Place$TargetType.class
+com/baidu/paddle/lite/Place.class
+com/baidu/paddle/lite/PowerMode.class
+com/baidu/paddle/lite/Tensor.class

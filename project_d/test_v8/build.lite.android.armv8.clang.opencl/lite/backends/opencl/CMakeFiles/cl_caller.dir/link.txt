@@ -1,0 +1,2 @@
+/opt/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-ar qc libcl_caller.a  CMakeFiles/cl_caller.dir/cl_caller.cc.o
+/opt/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-ranlib libcl_caller.a
